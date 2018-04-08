@@ -7,74 +7,67 @@
     
   </head>
   <body>
-  <div class="container">
-
-  <div class="container opening">
-      <center>
-      <h1>Game Rules</h1>
-      </center>
-      <center>
-      <h2>First Player to 100 pts wins!</h2>
-      </center>
-      <center>
-      <ul>
-        <li>Player 1 goes first</li>
-        <li>Click the "Roll" button to roll a virtual 6-sided die</li>
-        <li>Values for 2-6 get added to the "Roll Total" value for each turn</li>
-        <li>If you roll a 1, your turn is over and you lose all points earned</li>
-        <li>To end turn, select "Hold" button- this will add the "Roll Total" to the player's score
-        Have fun!</li>
-      </ul>
-      </center>
-      <center>
-      <h2>So You Want To Play The Pig!!</h2>
-      </center>
-
-    </div>
-
-
-  <div class="container">
-  <center>
-     <form>
-        <div class="row">
-        <div class="col-md-4">
-          <label>player 1</label>
-          <input id="player1" type="text" name="">
-          </div>
-           <div class="col-md-4">
-           <label>player 2</label>
-          <input id="player2" type="text" name="">
-          </div>
+    <div class="container">
+      <div class="container opening">
+        <center>
+        <h1>Game Rules</h1>
+        </center>
+        <center>
+        <h2>First Player to 100 pts wins!</h2>
+        </center>
+        <center>
+        <ul>
+          <li>Player 1 goes first</li>
+          <li>Click the "Roll" button to roll a virtual 6-sided die</li>
+          <li>Values for 2-6 get added to the "Roll Total" value for each turn</li>
+          <li>If you roll a 1, your turn is over and you lose all points earned</li>
+          <li>To end turn, select "Hold" button- this will add the "Roll Total" to the player's score
+          Have fun!</li>
+        </ul>
+        </center>
+        <center>
+        <h2>So You Want To Play The Pig!!</h2>
+        </center>
+      </div>
+      <div class="container">
+        <center>
+        <form>
+          <div class="row">
             <div class="col-md-4">
-          <button class="button btn-success"  >lets play!</button>
-          </div> 
-    
-    </div>
+              <label>player 1</label>
+              <input id="player1" type="text" name="">
+            </div>
+            <div class="col-md-4">
+              <label>player 2</label>
+              <input id="player2" type="text" name="">
+            </div>
+            <div class="col-md-4">
+              <button class="button btn-success"  >lets play!</button>
+            </div>
+            
+          </div>
         </form>
-   </center> 
-
-  </div>
-   
-<div class="container players">
-      <div class="row">
-        <div class="col-md-4">
-          <h1 id="pl1name"></h1>
-          <h2>score <span id="pl1score"></span></h2>
-          <h2>Total <span id="pl1total"></span></h2>
-        </div>
-        <div class="col-md-4">
-          <button class="button btn-success roll" >Roll</button>
-        <button class="button btn-danger hold" >Hold</button></div>
-        <div class="col-md-4">
-          <h1 id="pl2name"></h1>
-          <h2>score <span id="pl2score"></span></h2>
-          <h2>Total <span id="pl2total"></span></h2>
+        </center>
+      </div>
+      
+      <div class="container players">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 id="pl1name"></h1>
+            <h2>score <span id="pl1score"></span></h2>
+            <h2>Total <span id="pl1total"></span></h2>
+          </div>
+          <div class="col-md-4">
+            <button class="button btn-success roll" >Roll</button>
+          <button class="button btn-danger hold" >Hold</button></div>
+          <div class="col-md-4">
+            <h1 id="pl2name"></h1>
+            <h2>score <span id="pl2score"></span></h2>
+            <h2>Total <span id="pl2total"></span></h2>
+          </div>
         </div>
       </div>
     </div>
-</div>
-
-
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
   </body>
