@@ -1,6 +1,6 @@
 # Pig Dice
 this is an web application that involves two players rolling dice, the winner emerges when he/she attains 100 points.
-[pigDice] 
+[pigDice](https://anthonymwangi072.github.io/Pig-Dice/)
 
 ## Setup/Installation Requirements
 * computer/laptop]
