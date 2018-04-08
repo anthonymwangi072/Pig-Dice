@@ -1,0 +1,33 @@
+body{
+background:url("../images/dice.jpg") no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+color: white;
+}
+
+.players{
+	margin-top: 10vh; 
+
+
+}
+
+input{
+	background-color: black; 
+}
+
+
+
+
+
+
+
+/*.players{
+	display: none;
+}
+*/
+/*.opening{
+	display: none;
+}
+*/

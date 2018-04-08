@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"background"
+			],
+			[
+				"pl",
+				"playerName"
+			],
+			[
+				"Pl",
+				"playerOne"
+			],
+			[
+				"pla",
+				"player1"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"player",
+				"player1"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"tot",
+				"totalRoll"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"t",
+				"total"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"fa",
+				"fastFood1"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"te",
+				"text-align-last"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"panel",
+				"panel-info"
+			],
+			[
+				"pan",
+				"panel"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"H",
+				"H3\tTag"
+			],
+			[
+				"s",
+				"screenshot"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"col",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Pig Dice</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/styles.css\">\n    \n  </head>\n  <body>\n  <div class=\"container\">\n\n  <div class=\"container opening\">\n      <center>\n      <h1>Game Rules</h1>\n      </center>\n      <center>\n      <h2>First Player to 100 pts wins!</h2>\n      </center>\n      <center>\n      <ul>\n        <li>Player 1 goes first</li>\n        <li>Click the \"Roll\" button to roll a virtual 6-sided die</li>\n        <li>Values for 2-6 get added to the \"Roll Total\" value for each turn</li>\n        <li>If you roll a 1, your turn is over and you lose all points earned</li>\n        <li>To end turn, select \"Hold\" button- this will add the \"Roll Total\" to the player's score\n        Have fun!</li>\n      </ul>\n      </center>\n      <center>\n      <h2>So You Want To Play The Pig!!</h2>\n      </center>\n\n    </div>\n\n\n  <div class=\"container\">\n  <center>\n     <form>\n        <div class=\"row\">\n        <div class=\"col-md-4\">\n          <label>player 1</label>\n          <input id=\"player1\" type=\"text\" name=\"\">\n          </div>\n           <div class=\"col-md-4\">\n           <label>player 2</label>\n          <input id=\"player2\" type=\"text\" name=\"\">\n          </div>\n            <div class=\"col-md-4\">\n          <button class=\"button btn-success\"  >lets play!</button>\n          </div> \n    \n    </div>\n        </form>\n   </center> \n\n  </div>\n   \n<div class=\"container players\">\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <h1 id=\"pl1name\"></h1>\n          <h2>score <span id=\"pl1score\"></span></h2>\n          <h2>Total <span id=\"pl1total\"></span></h2>\n        </div>\n        <div class=\"col-md-4\">\n          <button class=\"button btn-success roll\" >Roll</button>\n        <button class=\"button btn-danger hold\" >Hold</button></div>\n        <div class=\"col-md-4\">\n          <h1 id=\"pl2name\"></h1>\n          <h2>score <span id=\"pl2score\"></span></h2>\n          <h2>Total <span id=\"pl2total\"></span></h2>\n        </div>\n      </div>\n    </div>\n</div>\n\n\n    <script src=\"js/jquery-3.3.1.js\"></script>\n    <script src=\"js/scripts.js\"></script>\n  </body>\n</html>",
+			"file": "index2.html",
+			"file_size": 2207,
+			"file_write_time": 131676629011956319,
+			"settings":
+			{
+				"buffer_size": 2207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 2875,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "new.js"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 345,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/antony/Documents/ping-pong/README.md",
+			"settings":
+			{
+				"buffer_size": 1952,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 2161,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/antony/Desktop/PigDice/index.html",
+		"/home/antony/Desktop/PigDice/css/styles.css",
+		"/home/antony/Desktop/PigDice/js/others.js",
+		"/home/antony/Desktop/PigDice/js/scripts.js",
+		"/home/antony/Documents/Pig-Dice/index.html",
+		"/home/antony/Documents/Pig-Dice/css/styles.css",
+		"/home/antony/Desktop/portfolio-landing-page/index.html",
+		"/home/antony/Desktop/mad-libs/index.html",
+		"/home/antony/Desktop/project2/js/scripts.js",
+		"/home/antony/Desktop/project2/index.html",
+		"/home/antony/Desktop/private-island-resort/index.html",
+		"/home/antony/Desktop/portfolio-landing-page/css/index.html",
+		"/home/antony/Desktop/happy-trails-travel-agency/index.html",
+		"/home/antony/Desktop/index.html/index.html",
+		"/home/antony/private-island-resort/contact-information",
+		"/home/antony/Desktop/my-first-website/favourite-things.html",
+		"/home/antony/Desktop/my-first-website/css/style.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 398.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ol",
+			"800",
+			";}\n",
+			"h1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1765,
+								1765
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 885.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1002,
+								1002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"auto_name": "new.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/antony/Documents/ping-pong/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 558.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pigdice.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
